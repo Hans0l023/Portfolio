@@ -1,0 +1,225 @@
+
+
+html{
+    font-family: var(--paragraph-font);
+    background-color: var(--secondary-color);
+    color: var(--accent3-color);
+    min-width: 350px;
+    margin: 1rem;
+}
+header {
+    background-color: var(--secondary-color);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+header h1{
+    font-size: xx-large;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+nav button{
+    margin: .2rem 2vw;
+    padding-left: 1rem;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: var(--accent3-color);
+
+}
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
+    
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: var(--accent3-color);
+    border-top: 1px solid rgba(0,0,0,.5);
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,.3);
+}
+
+nav ul{display: none;}
+nav ul.open{display: block;}
+
+#hamburger_button span:nth-child(1){display: block;}
+#hamburger_button span:nth-child(2){display: none;}
+
+
+
+/*class selectors*/
+.msg{
+    font-size: large;
+}
+.title{
+    text-align: left;
+    padding: 1rem;
+    font-family: var(--heading-font);
+    margin: 0;
+    margin-top: 4rem;
+}
+.banner-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100em;
+}
+.card-img {
+    max-width: 50px;
+    padding: .5em;
+    border-radius: 25rem;
+}
+
+.content {
+    margin: 0;
+    padding: 1rem;
+    font-size: medium;
+    font-family: var(--paragraph-font);
+    text-align: left;
+    font-weight: 50;
+}
+
+
+.email{
+    margin-top: 1em;
+    text-decoration: none;
+    color: var(--accent3-color);
+}
+/*id selectors*/
+#java{
+    border: none;
+    font-size: small;
+}
+#select{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    row-gap: 5px;
+    background-color: #555;
+}
+#date{
+    font-size: small;
+    text-align: center;
+}
+#secondary_nav{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 20px;
+}
+#secondary_nav h6 a{
+    text-decoration: none;
+    color: var(--accent3-color);
+}
+#resume, #projects{
+    font-size: large;
+    font-family: var(--heading-font);
+    color: var(--accent3-color);
+    background-color:#984429;
+    border-radius: 20px;
+    text-align: center;
+    padding: 25px;
+    grid-column-start: 2;
+
+    
+}
+
+#projects{
+    background-color: var(--primary-color);
+    grid-column-start: 4;  
+}
+
+#resume:hover, #projects:hover{
+    background-color: var(--accent1-color);
+}
+#info{
+    font-size: small;
+    text-align: left;
+    border-top: 2px solid var(--accent2-color);
+}
+
+/* RESUME page */
+#full-resume{
+    
+max-width: 450px;}
+
+/*class selectors*/
+.cert{
+    font-size: small;
+    font-family: var(--paragraph-font);
+    
+}
+.company-title{
+    font-size: small;
+    font-family: var(--paragraph-font);
+}
+.job-title{
+    font-size: medium;
+    font-family: var(--paragraph-font);
+    
+}
+
+.date{
+    font-size: small;
+    font-family: var(--paragraph-font);
+    
+
+}
+.s-description, .description{
+    font-size: smaller;
+    font-family: var(--paragraph-font);
+    margin-bottom: 3em;
+
+}
+
+/*id selectors*/
+#r-title, #education{
+    font-family: var(--heading-font);
+    border-top: 2px solid var(--accent2-color);
+    padding-top: 1rem;
+}
+#work-ex{
+    margin-bottom: 3rem ;
+}
+#cert, #school, #degree{
+    font-size: medium;
+}
+#skills{
+    margin-bottom: 5rem;
+}
+
+
+/* Project page */
+
+/* Class Selectors */
+.p-description, #p-opening{
+    text-align: center;
+    font-size: medium;
+    padding-bottom: 1rem;
+}
+
+img.p-title-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Id selectors */
+#p-title, #project-title{
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: x-large;
+}
+
+.p-title-link:hover{
+    opacity: .9;
+    transform: scale(1.1);
+}
